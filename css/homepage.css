@@ -1,0 +1,38 @@
+.options {
+    font-family: Poppins, sans-serif;
+    font-size: 12pt;
+    position: fixed;
+}
+
+.title {
+    font-family: Poppins, sans-serif;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    text-align: center;
+    left: 25%;
+    color: white;
+}
+
+.img_ilustracao {
+    display: flex;
+    position: fixed;
+    left: 19%;
+    z-index: -1;
+    background-color: rgb(52, 93, 140);
+}
+
+.text {
+    font-family: Poppins, sans-serif;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    text-align: left;
+    right: 10%;
+    width: 33%;
+    color: white;
+    background-color: rgb(52, 93, 140);
+    padding: 20px 20px 20px 20px
+}
