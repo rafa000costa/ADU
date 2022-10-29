@@ -1,36 +1,40 @@
+body {
+    background-color: #2B3B89;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
 .title {
     font-family: Poppins, sans-serif;
-    font-size: 20pt;
+    font-size: 22pt;
     display: flex;
-    flex-direction: row;
-    position: fixed;
     text-align: center;
-    left: 19%;
     color: white;
-    background-color: rgb(52, 93, 140);
+    background-color: #2B3B89;
     padding: 20px 87px 0px 80px
 }
 
 .img_ilustracao {
     display: flex;
-    position: fixed;
-    left: 19%;
+    position: relative;
     top: 5%;
     z-index: -1;
-    background-color: rgb(52, 93, 140);
-    padding: 180px 80px 170px 80px
+    background-color: #2B3B89;
+    padding: 90px 80px 90px 80px
 }
 
 .text {
     font-family: Poppins, sans-serif;
     font-size: 12pt;
     display: flex;
-    flex-direction: row;
-    position: fixed;
+    position: relative;
     text-align: left;
-    right: 3%;
-    width: 40%;
+    width: 60%;
     color: white;
-    background-color: rgb(52, 93, 140);
+    background-color: #2B3B89;
     padding: 20px 20px 20px 20px
 }
