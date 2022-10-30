@@ -58,6 +58,7 @@ opcao5.addEventListener('click', function onClick(event) {
 
 function myFunction1() {
     document.getElementById("opcao1").style.border = "2px solid black";
+    document.getElementById("opcao1").style.borderRadius = "8px"
     document.getElementById("opcao2").style.border = "none";
     document.getElementById("opcao3").style.border = "none";
     document.getElementById("opcao4").style.border = "none";
@@ -66,6 +67,7 @@ function myFunction1() {
 
 function myFunction2() {
     document.getElementById("opcao2").style.border = "2px solid black";
+    document.getElementById("opcao2").style.borderRadius = "8px"
     document.getElementById("opcao1").style.border = "none";
     document.getElementById("opcao3").style.border = "none";
     document.getElementById("opcao4").style.border = "none";
@@ -74,6 +76,7 @@ function myFunction2() {
 
 function myFunction3() {
     document.getElementById("opcao3").style.border = "2px solid black";
+    document.getElementById("opcao3").style.borderRadius = "8px"
     document.getElementById("opcao1").style.border = "none";
     document.getElementById("opcao2").style.border = "none";
     document.getElementById("opcao4").style.border = "none";
@@ -82,6 +85,7 @@ function myFunction3() {
 
 function myFunction4() {
     document.getElementById("opcao4").style.border = "2px solid black";
+    document.getElementById("opcao4").style.borderRadius = "8px"
     document.getElementById("opcao1").style.border = "none";
     document.getElementById("opcao2").style.border = "none";
     document.getElementById("opcao3").style.border = "none";
@@ -90,6 +94,7 @@ function myFunction4() {
 
 function myFunction5() {
     document.getElementById("opcao5").style.border = "2px solid black";
+    document.getElementById("opcao5").style.borderRadius = "8px"
     document.getElementById("opcao1").style.border = "none";
     document.getElementById("opcao2").style.border = "none";
     document.getElementById("opcao3").style.border = "none";
