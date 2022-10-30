@@ -1,0 +1,51 @@
+body {
+    background-color: #2B3B89;
+}
+
+.options {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.opcao_1, .opcao_2, .opcao_3, .opcao_4, .opcao_5 {
+    padding: 20px 20px 20px 20px;
+}
+
+/*#opcao1 {
+    background-color: whitesmoke;
+}*/
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.title {
+    font-family: Poppins, sans-serif;
+    font-size: 22pt;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 20px 87px 0px 80px
+}
+
+.img_ilustracao {
+    display: flex;
+    position: relative;
+    padding: 90px 80px 90px 250px
+}
+
+.text {
+    font-family: Poppins, sans-serif;
+    font-size: 13pt;
+    display: flex;
+    position: relative;
+    text-align: left;
+    width: 90%;
+    margin-left: -3%;
+    color: white;
+    padding: 20px 20px 20px 0px
+}
