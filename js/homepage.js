@@ -8,22 +8,6 @@ opcao1.addEventListener('click', function onClick(event) {
   //change text color
   document.body.style.color = 'black';
 });
-/*
-const btn_opcao1 = document.getElementById('opcao1');
-
-btn_opcao1.addEventListener('click', function onClick(event) {
-  //change background color
-  event.target.style.backgroundColor = 'whitesmoke';
-});
-
-/*function myFunction() {
-    var opcao1 = document.getElementById("opcao1");
-    if (opcao1.style.display === "none") {
-        opcao1.style.display = "block";
-    } else {
-        opcao1.style.display = "none";
-    }
-  }*/
 
 //OPÇÃO 2
 const opcao2 = document.getElementById('opcao2');
@@ -35,13 +19,6 @@ opcao2.addEventListener('click', function onClick(event) {
   //change text color
   document.body.style.color = 'black';
 });
-
-/*const btn_opcao2 = document.getElementById('opcao2');
-
-btn_opcao2.addEventListener('click', function onClick(event) {
-  //change background color
-  event.target.style.backgroundColor = 'whitesmoke';
-});*/
 
 
 //OPÇÃO 3
@@ -78,3 +55,43 @@ opcao5.addEventListener('click', function onClick(event) {
   //change text color
   document.body.style.color = 'black';
 });
+
+function myFunction1() {
+    document.getElementById("opcao1").style.border = "2px solid black";
+    document.getElementById("opcao2").style.border = "none";
+    document.getElementById("opcao3").style.border = "none";
+    document.getElementById("opcao4").style.border = "none";
+    document.getElementById("opcao5").style.border = "none";
+}
+
+function myFunction2() {
+    document.getElementById("opcao2").style.border = "2px solid black";
+    document.getElementById("opcao1").style.border = "none";
+    document.getElementById("opcao3").style.border = "none";
+    document.getElementById("opcao4").style.border = "none";
+    document.getElementById("opcao5").style.border = "none";
+}
+
+function myFunction3() {
+    document.getElementById("opcao3").style.border = "2px solid black";
+    document.getElementById("opcao1").style.border = "none";
+    document.getElementById("opcao2").style.border = "none";
+    document.getElementById("opcao4").style.border = "none";
+    document.getElementById("opcao5").style.border = "none";
+}
+
+function myFunction4() {
+    document.getElementById("opcao4").style.border = "2px solid black";
+    document.getElementById("opcao1").style.border = "none";
+    document.getElementById("opcao2").style.border = "none";
+    document.getElementById("opcao3").style.border = "none";
+    document.getElementById("opcao5").style.border = "none";
+}
+
+function myFunction5() {
+    document.getElementById("opcao5").style.border = "2px solid black";
+    document.getElementById("opcao1").style.border = "none";
+    document.getElementById("opcao2").style.border = "none";
+    document.getElementById("opcao3").style.border = "none";
+    document.getElementById("opcao4").style.border = "none";
+}

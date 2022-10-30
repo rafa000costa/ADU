@@ -7,6 +7,7 @@ body {
     flex-direction: row;
     margin-top: 3%;
     margin-left: 3%;
+    padding: 5px 5px 5px 5px;
 }
 
 .img_back {
@@ -40,23 +41,24 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
+    align-items: center;
+  
+    width: 90%;
 }
 
 .title {
     font-family: Poppins, sans-serif;
     font-size: 25pt;
-    margin-left: -2%;
     display: flex;
     text-align: center;
     color: black;
-    padding: 20px 87px 0px 80px
+    padding: 20px 80px 0px 80px
 }
 
 .img_ilustracao {
     display: flex;
     position: relative;
-    padding: 90px 80px 90px 250px
+    padding: 90px 80px 90px 80px
 }
 
 .text {
@@ -67,5 +69,5 @@ body {
     text-align: left;
     width: 65%;
     color: black;
-    padding: 20px 20px 20px 0px
+    padding: 20px 20px 20px 20px
 }
