@@ -9,6 +9,15 @@ opcao1.addEventListener('click', function onClick(event) {
   document.body.style.color = 'white';
 });
 
+/*function myFunction() {
+    var opcao1 = document.getElementById("opcao1");
+    if (opcao1.style.display === "none") {
+        opcao1.style.display = "block";
+    } else {
+        opcao1.style.display = "none";
+    }
+  }*/
+
 //OPÇÃO 2
 const opcao2 = document.getElementById('opcao2');
 
