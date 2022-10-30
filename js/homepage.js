@@ -9,6 +9,13 @@ opcao1.addEventListener('click', function onClick(event) {
   document.body.style.color = 'white';
 });
 
+const btn_opcao1 = document.getElementById('opcao1');
+
+btn_opcao1.addEventListener('click', function onClick(event) {
+  //change background color
+  event.target.style.backgroundColor = 'whitesmoke';
+});
+
 /*function myFunction() {
     var opcao1 = document.getElementById("opcao1");
     if (opcao1.style.display === "none") {
@@ -27,6 +34,13 @@ opcao2.addEventListener('click', function onClick(event) {
 
   //change text color
   document.body.style.color = 'white';
+});
+
+const btn_opcao2 = document.getElementById('opcao2');
+
+btn_opcao2.addEventListener('click', function onClick(event) {
+  //change background color
+  event.target.style.backgroundColor = 'whitesmoke';
 });
 
 
