@@ -3,10 +3,10 @@ const opcao1 = document.getElementById('opcao1');
 
 opcao1.addEventListener('click', function onClick(event) {
   //change background color
-  document.body.style.backgroundColor = '#2B3B89';
+  document.body.style.backgroundColor = '#F7DBC2';
 
   //change text color
-  document.body.style.color = 'white';
+  document.body.style.color = 'black';
 });
 
 const btn_opcao1 = document.getElementById('opcao1');
@@ -30,10 +30,10 @@ const opcao2 = document.getElementById('opcao2');
 
 opcao2.addEventListener('click', function onClick(event) {
   //change background color
-  document.body.style.backgroundColor = 'black';
+  document.body.style.backgroundColor = '#FAE38E';
 
   //change text color
-  document.body.style.color = 'white';
+  document.body.style.color = 'black';
 });
 
 const btn_opcao2 = document.getElementById('opcao2');
@@ -49,10 +49,10 @@ const opcao3 = document.getElementById('opcao3');
 
 opcao3.addEventListener('click', function onClick(event) {
   //change background color
-  document.body.style.backgroundColor = '#1F5855';
+  document.body.style.backgroundColor = '#FFFCA5';
 
   //change text color
-  document.body.style.color = 'white';
+  document.body.style.color = 'black';
 });
 
 
@@ -61,10 +61,10 @@ const opcao4 = document.getElementById('opcao4');
 
 opcao4.addEventListener('click', function onClick(event) {
   //change background color
-  document.body.style.backgroundColor = '#80387B';
+  document.body.style.backgroundColor = '#C1A2DF';
 
   //change text color
-  document.body.style.color = 'white';
+  document.body.style.color = 'black';
 });
 
 
@@ -73,8 +73,8 @@ const opcao5 = document.getElementById('opcao5');
 
 opcao5.addEventListener('click', function onClick(event) {
   //change background color
-  document.body.style.backgroundColor = '#713D39';
+  document.body.style.backgroundColor = '#DFBBB7';
 
   //change text color
-  document.body.style.color = 'white';
+  document.body.style.color = 'black';
 });
