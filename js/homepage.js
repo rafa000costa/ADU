@@ -8,7 +8,7 @@ opcao1.addEventListener('click', function onClick(event) {
   //change text color
   document.body.style.color = 'black';
 });
-
+/*
 const btn_opcao1 = document.getElementById('opcao1');
 
 btn_opcao1.addEventListener('click', function onClick(event) {
@@ -36,12 +36,12 @@ opcao2.addEventListener('click', function onClick(event) {
   document.body.style.color = 'black';
 });
 
-const btn_opcao2 = document.getElementById('opcao2');
+/*const btn_opcao2 = document.getElementById('opcao2');
 
 btn_opcao2.addEventListener('click', function onClick(event) {
   //change background color
   event.target.style.backgroundColor = 'whitesmoke';
-});
+});*/
 
 
 //OPÇÃO 3
